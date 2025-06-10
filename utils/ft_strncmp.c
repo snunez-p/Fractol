@@ -6,12 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 22:50:44 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/09 23:32:01 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:40:02 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../fractol.h"
-#include "../minilibx-linux/mlx.h"
+#include "fractol.h"
 
 int	ft_strncmp(char *s1, char *s2, int n)
 {

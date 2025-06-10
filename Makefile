@@ -6,7 +6,7 @@
 #    By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/10 02:39:29 by amaltea           #+#    #+#              #
-#    Updated: 2025/06/10 03:40:37 by amaltea          ###   ########.fr        #
+#    Updated: 2025/06/10 13:45:03 by amaltea          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ SRCS =	utils/atodoubl.c\
 				utils/putstr_fd.c\
 				events.c\
 				init.c\
-				main.o\
+				main.c\
 				math_utils.c\
 				render.c
 
@@ -30,20 +30,24 @@ OBJS = $(SRCS:.c=.o)
 
 CC = cc
 
-CFLAGS = -Wall -Werror -Wextra -I./includes $(MLX_INC)
+CFLAGS = -Wall -Werror -Wextra -I./ $(MLX_INC)
 
 all: $(NAME)
 
 $(MLX):
 	make -C $(MLX_DIR)
 
-$(NAME): $(OBJS)
+$(NAME): $(MLX) $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) $(MLX_FLAGS) -o $(NAME)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
+norm:
+	norminette $(SRCS) fractol.h
+
 clean:
+	make -C $(MLX_DIR) clean
 	rm -f $(OBJS)
 
 fclean: clean

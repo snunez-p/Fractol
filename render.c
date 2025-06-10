@@ -6,12 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/06 15:48:49 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/10 03:38:48 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:42:20 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
-#include "minilibx-linux/mlx.h"
 
 void	my_pixel_put(int x, int y, t_img *img, int color)
 {

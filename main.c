@@ -6,12 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 13:02:17 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/10 03:19:07 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:42:07 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
-#include "minilibx-linux/mlx.h"
 
 int	main(int argc, char **argv)
 {

@@ -6,14 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:52:18 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/10 03:17:59 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:38:35 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
-#include "minilibx-linux/mlx.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 void	malloc_error(void)
 {
@@ -24,7 +21,7 @@ void	malloc_error(void)
 void	data_init(t_fractal *fractal)
 {
 	fractal->escape_value = 4;
-	fractal->iterations_definition = 100;
+	fractal->iterations_definition = 42;
 	fractal->shift_x = 0.0;
 	fractal->shift_y = 0.0;
 	fractal->zoom = 1.0;

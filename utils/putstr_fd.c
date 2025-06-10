@@ -6,12 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 06:19:45 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/09 23:39:48 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:41:42 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../fractol.h"
-#include "../minilibx-linux/mlx.h"
+#include "fractol.h"
 
 void	putstr_fd(char *s, int fd)
 {

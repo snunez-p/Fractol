@@ -6,14 +6,14 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:28:00 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/10 03:39:01 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:45:21 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
-# include "minilibx-linux/mlx.h"
+# include "mlx.h"
 # include <X11/X.h>
 # include <X11/keysym.h>
 # include <math.h>
@@ -95,9 +95,9 @@ t_complex	sum_complex(t_complex z1, t_complex z2);
 t_complex	square_complex(t_complex z);
 
 // render
-void	my_pixel_put(int x, int y, t_img *img, int color);
-void	mandel_vs_julia(t_complex *z, t_complex *c, t_fractal *fractal);
-void	handle_pixel(int x, int y, t_fractal *fractal);
+void		my_pixel_put(int x, int y, t_img *img, int color);
+void		mandel_vs_julia(t_complex *z, t_complex *c, t_fractal *fractal);
+void		handle_pixel(int x, int y, t_fractal *fractal);
 void		fractal_render(t_fractal *fractal);
 
 #endif

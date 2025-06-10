@@ -6,12 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:06:09 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/09 23:31:46 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:41:28 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../fractol.h"
-#include "../minilibx-linux/mlx.h"
+#include "fractol.h"
 
 double	atodoubl(char *s)
 {

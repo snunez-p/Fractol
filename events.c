@@ -6,15 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/06 16:31:07 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/10 02:59:11 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:41:59 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
-#include "minilibx-linux/mlx.h"
-#include <X11/X.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 int	close_handler(t_fractal *fractal)
 {

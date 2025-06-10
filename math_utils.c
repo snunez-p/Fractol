@@ -6,12 +6,11 @@
 /*   By: amaltea <amaltea@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/06 16:05:37 by amaltea           #+#    #+#             */
-/*   Updated: 2025/06/10 03:11:23 by amaltea          ###   ########.fr       */
+/*   Updated: 2025/06/10 13:42:15 by amaltea          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
-#include "minilibx-linux/mlx.h"
 
 double	map(double unscaled_num, double new_min, double new_max, double old_max)
 {
